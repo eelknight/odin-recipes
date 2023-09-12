@@ -1,7 +1,19 @@
+body{
+    background-color: rgb(188, 188, 238);
+}
 .main-heading{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     color: blueviolet;
+}
+.food-img{
+    display: inline;
+    width: 50%;
+    height: auto;
+}
+.viking-img{
+    width: 100%;
+    height: auto;
 }
 
 a{
@@ -12,7 +24,7 @@ p{
 }
 h3{
     text-align: center;
-    color: rgb(115, 8, 8);
+    color: rgb(164, 7, 7);
 }
 .ingredient-list{
     text-align: center;
@@ -23,8 +35,22 @@ h3.steps{
 h2{
     color: green;
 }
+
 .title-heading{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     color: blueviolet;
+}
+li{
+    font-size: 20px;
+}
+.ingredients{
+    width: 50%;
+    height: auto;
+    float: right;
+    margin-top: 100px;
+}    
+.steps{
+    text-align: center;
+    margin: 25px 100px;
 }
